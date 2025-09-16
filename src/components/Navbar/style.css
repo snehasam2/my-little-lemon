@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #495e57; /* Little Lemon theme color */
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* center links horizontally */
+    gap: 2rem; /* spacing between links */
+  }
+
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #f4ce14; /* Lemon yellow hover */
+  }
+  
+  .navbar-link.active {
+    color: #f4ce14; /* Highlight active page */
+    font-weight: 700;
+  }
+  

@@ -1,0 +1,41 @@
+.contact-page {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #495e57;
+  }
+  
+  .contact-hero {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-hero h1 {
+    font-size: 2rem;
+    color: #495e57;
+  }
+  
+  .contact-hero p {
+    font-size: 1rem;
+  }
+  
+  .contact-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .contact-item h2 {
+    font-size: 1.2rem;
+    color: #f4ce14;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-item a,
+  .contact-item address {
+    color: #495e57;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  

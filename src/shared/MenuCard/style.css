@@ -1,0 +1,35 @@
+.menucard {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  >div{
+    padding: var(--default-padding);
+  }
+  img {
+    width: 280px;
+    height: 280px;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    object-fit: cover;
+  }
+  h2 {
+    margin: 42px 0 !important;
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+  p {
+    font-size: 0.75rem;
+  }
+  button{
+    padding: var(--default-padding);
+    background-color: var(--secondary-color);
+    width: 100%;
+    border-style: none;
+    margin: 16px 0;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}

@@ -1,13 +1,41 @@
+:root {
+  --primary-color: #495e57;
+  --secondary-color: #f4ce14;
+  --default-text-color: #333333;
+  --border-radius: 4px;
+  --default-padding: 8px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--default-text-color);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@import "./shared/MenuCard/style.css";
+@import "./shared/TopPicks/style.css";
+@import "./shared/PopupModal/style.css";
+@import "./shared/Skeleton/style.css";
+@import "./components/Footer/style.css";
+@import "./components/Header/style.css";
+@import "./components/Navbar/style.css";
+@import "./components/AppShell/style.css";
+@import "./routes/Homepage/style.css";
+@import "./routes/Menu/style.css";
+@import "./routes/Reservation/style.css";
+
