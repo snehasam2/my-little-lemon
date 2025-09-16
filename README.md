@@ -1,3 +1,52 @@
+**Little Lemon Restaurant Website**
+
+Little Lemon is a responsive restaurant website built with React. It showcases the restaurant’s menu, allows users to book reservations, and displays featured dishes dynamically.
+
+**Features**
+
+# Home Page
+
+Highlights top picks for the day.
+
+“Book a table” call-to-action.
+
+Smooth scrolling and dynamic content.
+
+# Menu Page
+
+Displays a list of menu items with images and descriptions.
+
+Uses skeleton loaders while data is being fetched.
+
+# Reservation Page
+
+Users can book a table by entering their details.
+
+Select number of guests, date, time, and occasion.
+
+Shows a confirmation modal upon successful booking.
+
+# Navigation
+
+Responsive navigation bar with links to Home, Menu, Reservations, and Contact page.
+
+# Footer
+
+Contains contact information, social links, and quick navigation.
+
+# Technologies Used
+
+React (with Hooks)
+
+React Router
+
+CSS / SCSS for styling
+
+Jest & React Testing Library for testing
+
+Mocked API data for menu items and reservations
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
